@@ -1,0 +1,24 @@
+article{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+*{box-sizing: border-box;}
+
+
+div{
+    flex:0 0 100px;
+
+}
+div:first-child{
+    color: red;
+    flex :0 2 auto;
+
+    order: 2;
+}
+
+
+
